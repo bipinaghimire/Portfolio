@@ -55,8 +55,10 @@ export const Banner = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <h1>{`Hi! I'm`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Bipina Ghimire" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 
-                    1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                  <p>Computer Science studenyt with strong ability to determine project's operational feasibility design, and implement correlating solutions.
+                    Adept at documenting and demonstrationg these solutions by developing documentation, layouts, flowcharts and clear codes according to specification.
+                    I am also a self-motivated and hardworking individual with a strong desire to learn and grow in the field of computer science.
+                  </p>
               </div>}
             </TrackVisibility>
           </Col>
